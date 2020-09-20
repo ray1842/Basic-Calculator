@@ -8,7 +8,7 @@ class App extends Component{
     constructor(props){
       super(props);
       this.state={
-        input:"0"
+        input:" "
       };
     }
     concatenation= val =>{
@@ -36,7 +36,7 @@ class App extends Component{
             <Button handleClick={this.concatenation}>4</Button>
             <Button handleClick={this.concatenation}>5</Button>
             <Button handleClick={this.concatenation}>6</Button>
-            <Button handleClick={this.concatenation}>X</Button>
+            <Button handleClick={this.concatenation}>*</Button>
           </div>
           <div className="row">
             <Button handleClick={this.concatenation}>1</Button>
