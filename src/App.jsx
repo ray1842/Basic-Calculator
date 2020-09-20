@@ -22,7 +22,6 @@ class App extends Component{
     }
     render(){
       return(
-      
         <div className="calculator">
         <div className="calc-container">
         <Input input={this.state.input}/>
