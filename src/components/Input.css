@@ -2,8 +2,8 @@
 .input{
     height:4em;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: flex-start;
+    align-items: flex-start;
     font-family:'Orbitron', sans-serif;
     font-size:2rem;
     background-color:black;
