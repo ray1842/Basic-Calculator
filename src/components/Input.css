@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
+.input{
+    height:4em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-family:'Orbitron', sans-serif;
+    font-size:2rem;
+    background-color:black;
+    padding:0.5em;
+    outline:1px solid gray;
+    color:white;
+    word-wrap: break-word;
+}
